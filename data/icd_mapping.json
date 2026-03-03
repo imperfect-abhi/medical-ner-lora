@@ -1,0 +1,372 @@
+{
+    "myocardial_infarction": {
+        "icd10_code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified",
+        "category": "cardiovascular",
+        "severity": "critical",
+        "occurrences_in_dataset": 685
+    },
+    "heart_failure": {
+        "icd10_code": "I50.9",
+        "description": "Heart failure, unspecified",
+        "category": "cardiovascular",
+        "severity": "severe",
+        "occurrences_in_dataset": 849
+    },
+    "hypertension": {
+        "icd10_code": "I10",
+        "description": "Essential (primary) hypertension",
+        "category": "cardiovascular",
+        "severity": "moderate",
+        "occurrences_in_dataset": 4502
+    },
+    "atrial_fibrillation": {
+        "icd10_code": "I48.91",
+        "description": "Unspecified atrial fibrillation",
+        "category": "cardiovascular",
+        "severity": "moderate",
+        "occurrences_in_dataset": 876
+    },
+    "coronary_artery_disease": {
+        "icd10_code": "I25.10",
+        "description": "Atherosclerotic heart disease of native coronary artery",
+        "category": "cardiovascular",
+        "severity": "severe",
+        "occurrences_in_dataset": 797
+    },
+    "cardiac_arrest": {
+        "icd10_code": "I46.9",
+        "description": "Cardiac arrest, cause unspecified",
+        "category": "cardiovascular",
+        "severity": "critical",
+        "occurrences_in_dataset": 524
+    },
+    "stroke": {
+        "icd10_code": "I63.9",
+        "description": "Cerebral infarction, unspecified",
+        "category": "cardiovascular",
+        "severity": "critical",
+        "occurrences_in_dataset": 936
+    },
+    "pulmonary_embolism": {
+        "icd10_code": "I26.99",
+        "description": "Other pulmonary embolism without acute cor pulmonale",
+        "category": "cardiovascular",
+        "severity": "critical",
+        "occurrences_in_dataset": 657
+    },
+    "pneumonia": {
+        "icd10_code": "J18.9",
+        "description": "Pneumonia, unspecified organism",
+        "category": "respiratory",
+        "severity": "severe",
+        "occurrences_in_dataset": 1190
+    },
+    "copd": {
+        "icd10_code": "J44.9",
+        "description": "Chronic obstructive pulmonary disease, unspecified",
+        "category": "respiratory",
+        "severity": "severe",
+        "occurrences_in_dataset": 710
+    },
+    "asthma": {
+        "icd10_code": "J45.909",
+        "description": "Unspecified asthma, uncomplicated",
+        "category": "respiratory",
+        "severity": "moderate",
+        "occurrences_in_dataset": 500
+    },
+    "respiratory_failure": {
+        "icd10_code": "J96.90",
+        "description": "Respiratory failure, unspecified",
+        "category": "respiratory",
+        "severity": "critical",
+        "occurrences_in_dataset": 607
+    },
+    "tuberculosis": {
+        "icd10_code": "A15.9",
+        "description": "Respiratory tuberculosis unspecified",
+        "category": "infectious",
+        "severity": "severe",
+        "occurrences_in_dataset": 1062
+    },
+    "diabetes_mellitus": {
+        "icd10_code": "E11.9",
+        "description": "Type 2 diabetes mellitus without complications",
+        "category": "endocrine",
+        "severity": "moderate",
+        "occurrences_in_dataset": 2651
+    },
+    "type_1_diabetes": {
+        "icd10_code": "E10.9",
+        "description": "Type 1 diabetes mellitus without complications",
+        "category": "endocrine",
+        "severity": "moderate",
+        "occurrences_in_dataset": 116
+    },
+    "type_2_diabetes": {
+        "icd10_code": "E11.9",
+        "description": "Type 2 diabetes mellitus without complications",
+        "category": "endocrine",
+        "severity": "moderate",
+        "occurrences_in_dataset": 479
+    },
+    "diabetic_ketoacidosis": {
+        "icd10_code": "E10.10",
+        "description": "Type 1 diabetes mellitus with ketoacidosis",
+        "category": "endocrine",
+        "severity": "critical",
+        "occurrences_in_dataset": 59
+    },
+    "hyperthyroidism": {
+        "icd10_code": "E05.90",
+        "description": "Thyrotoxicosis, unspecified",
+        "category": "endocrine",
+        "severity": "moderate",
+        "occurrences_in_dataset": 137
+    },
+    "hypothyroidism": {
+        "icd10_code": "E03.9",
+        "description": "Hypothyroidism, unspecified",
+        "category": "endocrine",
+        "severity": "mild",
+        "occurrences_in_dataset": 533
+    },
+    "sepsis": {
+        "icd10_code": "A41.9",
+        "description": "Sepsis, unspecified organism",
+        "category": "infectious",
+        "severity": "critical",
+        "occurrences_in_dataset": 726
+    },
+    "septic_shock": {
+        "icd10_code": "R65.21",
+        "description": "Severe sepsis with septic shock",
+        "category": "infectious",
+        "severity": "critical",
+        "occurrences_in_dataset": 272
+    },
+    "meningitis": {
+        "icd10_code": "G03.9",
+        "description": "Meningitis, unspecified",
+        "category": "infectious",
+        "severity": "critical",
+        "occurrences_in_dataset": 239
+    },
+    "encephalitis": {
+        "icd10_code": "G04.90",
+        "description": "Encephalitis, unspecified",
+        "category": "infectious",
+        "severity": "critical",
+        "occurrences_in_dataset": 184
+    },
+    "epilepsy": {
+        "icd10_code": "G40.909",
+        "description": "Epilepsy, unspecified, not intractable",
+        "category": "neurological",
+        "severity": "moderate",
+        "occurrences_in_dataset": 462
+    },
+    "seizure": {
+        "icd10_code": "R56.9",
+        "description": "Unspecified convulsions",
+        "category": "neurological",
+        "severity": "severe",
+        "occurrences_in_dataset": 961
+    },
+    "parkinsons_disease": {
+        "icd10_code": "G20",
+        "description": "Parkinson's disease",
+        "category": "neurological",
+        "severity": "severe",
+        "occurrences_in_dataset": 67
+    },
+    "alzheimers_disease": {
+        "icd10_code": "G30.9",
+        "description": "Alzheimer's disease, unspecified",
+        "category": "neurological",
+        "severity": "severe",
+        "occurrences_in_dataset": 190
+    },
+    "multiple_sclerosis": {
+        "icd10_code": "G35",
+        "description": "Multiple sclerosis",
+        "category": "neurological",
+        "severity": "severe",
+        "occurrences_in_dataset": 493
+    },
+    "bipolar_disorder": {
+        "icd10_code": "F31.9",
+        "description": "Bipolar disorder, unspecified",
+        "category": "psychiatric",
+        "severity": "moderate",
+        "occurrences_in_dataset": 155
+    },
+    "major_depression": {
+        "icd10_code": "F32.9",
+        "description": "Major depressive disorder, single episode, unspecified",
+        "category": "psychiatric",
+        "severity": "moderate",
+        "occurrences_in_dataset": 142
+    },
+    "schizophrenia": {
+        "icd10_code": "F20.9",
+        "description": "Schizophrenia, unspecified",
+        "category": "psychiatric",
+        "severity": "severe",
+        "occurrences_in_dataset": 365
+    },
+    "anxiety_disorder": {
+        "icd10_code": "F41.9",
+        "description": "Anxiety disorder, unspecified",
+        "category": "psychiatric",
+        "severity": "mild",
+        "occurrences_in_dataset": 99
+    },
+    "chronic_kidney_disease": {
+        "icd10_code": "N18.9",
+        "description": "Chronic kidney disease, unspecified",
+        "category": "renal",
+        "severity": "severe",
+        "occurrences_in_dataset": 427
+    },
+    "acute_kidney_injury": {
+        "icd10_code": "N17.9",
+        "description": "Acute kidney failure, unspecified",
+        "category": "renal",
+        "severity": "critical",
+        "occurrences_in_dataset": 425
+    },
+    "cirrhosis": {
+        "icd10_code": "K74.60",
+        "description": "Unspecified cirrhosis of liver",
+        "category": "hepatic",
+        "severity": "severe",
+        "occurrences_in_dataset": 398
+    },
+    "hepatitis": {
+        "icd10_code": "K75.9",
+        "description": "Inflammatory liver disease, unspecified",
+        "category": "hepatic",
+        "severity": "moderate",
+        "occurrences_in_dataset": 1073
+    },
+    "liver_failure": {
+        "icd10_code": "K72.90",
+        "description": "Hepatic failure, unspecified",
+        "category": "hepatic",
+        "severity": "critical",
+        "occurrences_in_dataset": 130
+    },
+    "lung_cancer": {
+        "icd10_code": "C34.90",
+        "description": "Malignant neoplasm of unspecified part of unspecified bronchus or lung",
+        "category": "oncology",
+        "severity": "critical",
+        "occurrences_in_dataset": 347
+    },
+    "breast_cancer": {
+        "icd10_code": "C50.919",
+        "description": "Malignant neoplasm of unspecified site of unspecified female breast",
+        "category": "oncology",
+        "severity": "critical",
+        "occurrences_in_dataset": 597
+    },
+    "colon_cancer": {
+        "icd10_code": "C18.9",
+        "description": "Malignant neoplasm of colon, unspecified",
+        "category": "oncology",
+        "severity": "critical",
+        "occurrences_in_dataset": 309
+    },
+    "leukemia": {
+        "icd10_code": "C95.90",
+        "description": "Leukemia, unspecified",
+        "category": "oncology",
+        "severity": "critical",
+        "occurrences_in_dataset": 198
+    },
+    "lymphoma": {
+        "icd10_code": "C85.90",
+        "description": "Non-Hodgkin lymphoma, unspecified",
+        "category": "oncology",
+        "severity": "critical",
+        "occurrences_in_dataset": 801
+    },
+    "peptic_ulcer": {
+        "icd10_code": "K27.9",
+        "description": "Peptic ulcer, site unspecified",
+        "category": "gastrointestinal",
+        "severity": "moderate",
+        "occurrences_in_dataset": 230
+    },
+    "pancreatitis": {
+        "icd10_code": "K85.90",
+        "description": "Acute pancreatitis, unspecified",
+        "category": "gastrointestinal",
+        "severity": "severe",
+        "occurrences_in_dataset": 367
+    },
+    "appendicitis": {
+        "icd10_code": "K35.80",
+        "description": "Unspecified acute appendicitis",
+        "category": "gastrointestinal",
+        "severity": "severe",
+        "occurrences_in_dataset": 237
+    },
+    "cholecystitis": {
+        "icd10_code": "K81.9",
+        "description": "Cholecystitis, unspecified",
+        "category": "gastrointestinal",
+        "severity": "moderate",
+        "occurrences_in_dataset": 198
+    },
+    "anemia": {
+        "icd10_code": "D64.9",
+        "description": "Anemia, unspecified",
+        "category": "hematological",
+        "severity": "mild",
+        "occurrences_in_dataset": 1490
+    },
+    "fracture": {
+        "icd10_code": "S02.9XXA",
+        "description": "Unspecified fracture of skull",
+        "category": "trauma",
+        "severity": "moderate",
+        "occurrences_in_dataset": 2808
+    },
+    "osteoporosis": {
+        "icd10_code": "M81.0",
+        "description": "Age-related osteoporosis without current pathological fracture",
+        "category": "musculoskeletal",
+        "severity": "moderate",
+        "occurrences_in_dataset": 266
+    },
+    "rheumatoid_arthritis": {
+        "icd10_code": "M06.9",
+        "description": "Rheumatoid arthritis, unspecified",
+        "category": "musculoskeletal",
+        "severity": "moderate",
+        "occurrences_in_dataset": 407
+    },
+    "chest_pain": {
+        "icd10_code": "R07.9",
+        "description": "Chest pain, unspecified",
+        "severity": "MODERATE"
+    },
+    "shortness_of_breath": {
+        "icd10_code": "R06.02",
+        "description": "Shortness of breath",
+        "severity": "MODERATE"
+    },
+    "stenosis": {
+        "icd10_code": "I25.10",
+        "description": "Atherosclerotic heart disease of native coronary artery",
+        "severity": "SEVERE"
+    },
+    "pain": {
+        "icd10_code": "R52",
+        "description": "Pain, unspecified",
+        "severity": "MILD"
+    }
+}

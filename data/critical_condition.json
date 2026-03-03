@@ -1,0 +1,122 @@
+[
+    {
+        "condition": "Acute Myocardial Infarction (STEMI)",
+        "pattern": "\\b(ST[- ]?segment\\s+elevation|acute\\s+myocardial\\s+infarction|STEMI|heart\\s+attack|MI|infarct|troponin\\s+elevated|chest\\s+pain\\s+radiating)\\b",
+        "protocol": "ACLS Guidelines (Door-to-Balloon/PCI, Thrombolysis)",
+        "time_window": "90 minutes for PCI; 30 minutes for thrombolysis (if PCI not available)"
+    },
+    {
+        "condition": "Sepsis/Septic Shock",
+        "pattern": "\\b(sepsis|septic\\s+shock|organ\\s+failure|hypotension|tachycardia|tachypnea|fever|hypothermia|elevated\\s+lactate|altered\\s+mental\\s+status|infection\\s+suspected)\\b",
+        "protocol": "Surviving Sepsis Campaign (Bundle Care: IV fluids, vasopressors, antibiotics, lactate measurement)",
+        "time_window": "1 hour for bundle initiation (fluids, antibiotics, lactate)"
+    },
+    {
+        "condition": "Stroke (Ischemic/Hemorrhagic)",
+        "pattern": "\\b(stroke|neurological\\s+deficit|facial\\s+droop|arm\\s+weakness|speech\\s+difficulty|FAST\\s+test|aphasia|hemiparesis|sudden\\s+weakness|visual\\s+disturbance|balance\\s+loss|headache\\s+sudden\\s+severe)\\b",
+        "protocol": "AHA/ASA Stroke Guidelines (tPA for ischemic, BP management for hemorrhagic)",
+        "time_window": "4.5 hours for tPA from symptom onset (ischemic); immediate BP control for hemorrhagic"
+    },
+    {
+        "condition": "Diabetic Ketoacidosis (DKA)",
+        "pattern": "\\b(DKA|diabetic\\s+ketoacidosis|hyperglycemia\\s+severe|ketones\\s+urine|acidosis\\s+metabolic|fruity\\s+breath|polyuria|polydipsia|kussmaul\\s+respirations|abdominal\\s+pain\\s+DKA)\\b",
+        "protocol": "Insulin Infusion Protocol, Aggressive Fluid Resuscitation, Electrolyte Correction",
+        "time_window": "Immediate fluid and insulin therapy, continuous monitoring"
+    },
+    {
+        "condition": "Anaphylaxis (Severe Allergic Reaction)",
+        "pattern": "\\b(anaphylaxis|severe\\s+allergic\\s+reaction|difficulty\\s+breathing|wheezing|hives|urticaria|swelling\\s+face|angioedema|epinephrine|stridor|hypotension\\s+allergic)\\b",
+        "protocol": "Epinephrine administration (IM), Airway management, Antihistamines, Corticosteroids",
+        "time_window": "Immediate epinephrine administration"
+    },
+    {
+        "condition": "Pulmonary Embolism (PE)",
+        "pattern": "\\b(pulmonary\\s+embolism|PE|chest\\s+pain\\s+pleuritic|shortness\\s+of\\s+breath\\s+acute|dyspnea\\s+sudden|tachycardia\\s+sudden|hypoxia\\s+unexplained|hemoptysis|DVT\\s+symptoms|leg\\s+swelling\\s+pain)\\b",
+        "protocol": "Anticoagulation, Thrombolysis (if massive PE), Oxygen support, Hemodynamic support",
+        "time_window": "STAT diagnosis and initiation of anticoagulation/thrombolysis"
+    },
+    {
+        "condition": "Cardiac Arrest",
+        "pattern": "\\b(cardiac\\s+arrest|CPR|code\\s+blue|no\\s+pulse|unresponsive|agonal\\s+breathing|ventricular\\s+fibrillation|asystole|pulseless\\s+electrical\\s+activity|PEA)\\b",
+        "protocol": "ACLS Guidelines (CPR, Defibrillation, Advanced Airway, Medications, Targeted Temperature Management)",
+        "time_window": "Immediate (within minutes) for CPR and defibrillation"
+    },
+    {
+        "condition": "Severe Asthma Exacerbation/Respiratory Distress",
+        "pattern": "\\b(severe\\s+asthma\\s+exacerbation|respiratory\\s+distress|status\\s+asthmaticus|accessory\\s+muscle\\s+use|cyanosis|wheezing\\s+absent|pulsus\\s+paradoxus|peak\\s+flow\\s+drop\\s+severe|unable\\s+to\\s+speak\\s+full\\s+sentences)\\b",
+        "protocol": "Aggressive Bronchodilators, Systemic Steroids, Oxygen, Magnesium Sulfate, Intubation (if needed)",
+        "time_window": "Immediate assessment and aggressive therapy"
+    },
+    {
+        "condition": "Hypertensive Crisis (Emergency/Urgency)",
+        "pattern": "\\b(hypertensive\\s+crisis|hypertensive\\s+emergency|very\\s+high\\s+blood\\s+pressure|end\\s+organ\\s+damage|headache\\s+severe|blurred\\s+vision\\s+new|chest\\s+pain\\s+hypertensive|epistaxis\\s+severe|neurological\\s+changes\\s+acute|renal\\s+dysfunction\\s+acute)\\b",
+        "protocol": "IV Antihypertensives (titrated), Close Monitoring, Identify/Treat End-Organ Damage",
+        "time_window": "Reduce BP within minutes to hours depending on presence of end-organ damage"
+    },
+    {
+        "condition": "Traumatic Brain Injury (TBI)",
+        "pattern": "\\b(traumatic\\s+brain\\s+injury|TBI|head\\s+trauma|LOC|loss\\s+of\\s+consciousness|GCS|glasgow\\s+coma\\s+scale\\s+low|skull\\s+fracture|intracranial\\s+hemorrhage|epidural\\s+hematoma|subdural\\s+hematoma|concussion\\s+severe|pupil\\s+asymmetry)\\b",
+        "protocol": "Neurosurgical consultation, ICP management, Airway protection, Fluid management",
+        "time_window": "Immediate assessment, CT head, and neurosurgical intervention if indicated"
+    },
+    {
+        "condition": "Acute Gastrointestinal Bleeding (Upper/Lower)",
+        "pattern": "\\b(GI\\s+bleed|hematemesis|melena|bright\\s+red\\s+blood\\s+per\\s+rectum|coffee\\s+ground\\s+emesis|hemodynamic\\s+instability|anemia\\s+acute\\s+symptomatic|dizziness\\s+GI\\s+bleed|fainting\\s+GI\\s+bleed)\\b",
+        "protocol": "Fluid resuscitation, Blood transfusion (if needed), Endoscopy/Colonoscopy, PPI therapy",
+        "time_window": "Immediate stabilization and urgent diagnostic evaluation/intervention"
+    },
+    {
+        "condition": "Severe Burns",
+        "pattern": "\\b(severe\\s+burns|full\\s+thickness\\s+burns|third\\s+degree\\s+burns|electrical\\s+burn|chemical\\s+burn|inhalation\\s+injury|burn\\s+shock|large\\s+surface\\s+area\\s+burn|facial\\s+burns|circumferential\\s+burns)\\b",
+        "protocol": "Fluid resuscitation (Parkland formula), Airway management, Pain control, Wound care, Burn center transfer",
+        "time_window": "Immediate assessment, ABCs, and initiation of burn care"
+    },
+    {
+        "condition": "Spinal Cord Injury (SCI)",
+        "pattern": "\\b(spinal\\s+cord\\s+injury|SCI|paralysis|numbness\\s+limbs|weakness\\s+limbs\\s+sudden|loss\\s+of\\s+sensation|neurogenic\\s+shock|priapism|incontinence\\s+new\\s+SCI|flaccid\\s+paralysis)\\b",
+        "protocol": "Spinal immobilization, Neurosurgical/Orthopedic consultation, Methylprednisolone (controversial), Airway/Respiratory support",
+        "time_window": "Immediate immobilization and transfer to trauma center/specialized unit"
+    },
+    {
+        "condition": "Opioid Overdose",
+        "pattern": "\\b(opioid\\s+overdose|respiratory\\s+depression|bradypnea|pinpoint\\s+pupils|miosis|cyanosis|unresponsive\\s+opioid|naloxone|narcan|hypoxia\\s+opioid)\\b",
+        "protocol": "Naloxone administration, Respiratory support (bag-valve mask/intubation), BLS/ACLS",
+        "time_window": "Immediate naloxone administration and respiratory support"
+    },
+    {
+        "condition": "Toxic Ingestion/Poisoning (Life-Threatening)",
+        "pattern": "\\b(toxic\\s+ingestion|poisoning\\s+severe|overdose\\s+medication\\s+critical|altered\\s+mental\\s+status\\s+toxic|cardiac\\s+arrhythmias\\s+toxic|respiratory\\s+depression\\s+toxic|hypotension\\s+toxic|specific\\s+toxidrome\\s+symptoms)\\b",
+        "protocol": "Decontamination (activated charcoal, gastric lavage, whole bowel irrigation), Antidote administration (if available), Supportive care (airway, breathing, circulation)",
+        "time_window": "Immediate identification of substance and initiation of appropriate management"
+    },
+    {
+        "condition": "Acute Angle-Closure Glaucoma",
+        "pattern": "\\b(acute\\s+angle\\s+closure\\s+glaucoma|sudden\\s+vision\\s+loss\\s+painful|severe\\s+eye\\s+pain\\s+unilateral|haloes\\s+around\\s+lights\\s+new|red\\s+eye\\s+acute|fixed\\s+dilated\\s+pupil|nausea\\s+vomiting\\s+ocular\\s+pain)\\b",
+        "protocol": "Ophthalmological emergency, Medications to lower intraocular pressure (topical, systemic), Laser iridotomy/surgical iridectomy",
+        "time_window": "Immediate treatment to prevent permanent vision loss (within hours)"
+    },
+    {
+        "condition": "Ectopic Pregnancy with Rupture",
+        "pattern": "\\b(ectopic\\s+pregnancy\\s+rupture|abdominal\\s+pain\\s+severe\\s+unilateral|vaginal\\s+bleeding\\s+pelvic\\s+pain|syncope\\s+ectopic|shoulder\\s+pain\\s+ectopic|hypotension\\s+ectopic|tachycardia\\s+ectopic|positive\\s+pregnancy\\s+test\\s+abdominal\\s+pain)\\b",
+        "protocol": "Surgical emergency (laparoscopy/laparotomy), Fluid resuscitation, Blood transfusion (if needed)",
+        "time_window": "Immediate surgical intervention"
+    },
+    {
+        "condition": "Aortic Dissection",
+        "pattern": "\\b(aortic\\s+dissection|sudden\\s+severe\\s+chest\\s+pain\\s+ripping|back\\s+pain\\s+severe\\s+ripping|migratory\\s+pain|pulse\\s+deficit|blood\\s+pressure\\s+differential\\s+limbs|aortic\\s+regurgitation\\s+new|syncope\\s+aortic)\\b",
+        "protocol": "Immediate BP and heart rate control, Surgical consultation for Type A, Medical management for Type B",
+        "time_window": "STAT diagnosis and immediate medical/surgical management"
+    },
+    {
+        "condition": "Status Epilepticus",
+        "pattern": "\\b(status\\s+epilepticus|continuous\\s+seizure|seizure\\s+lasting\\s+more\\s+than\\s+5\\s+minutes|recurrent\\s+seizures\\s+without\\s+recovery\\s+of\\s+consciousness|epileptic\\s+fit\\s+prolonged)\\b",
+        "protocol": "ABCs, Benzodiazepines (first-line), Antiepileptic drugs (second-line), EEG monitoring",
+        "time_window": "Immediate termination of seizure activity (within 5-10 minutes)"
+    },
+    {
+        "condition": "Severe Electrolyte Imbalance (e.g., Hyperkalemia, Hyponatremia)",
+        "pattern": "\\b(severe\\s+hyperkalemia|severe\\s+hyponatremia|potassium\\s+high\\s+EKG\\s+changes|sodium\\s+low\\s+seizure|cardiac\\s+arrhythmias\\s+electrolyte|altered\\s+mental\\s+status\\s+electrolyte)\\b",
+        "protocol": "IV calcium (for hyperkalemia), Insulin/glucose, Diuretics, Fluid restriction/hypertonic saline (for hyponatremia), Dialysis (if severe)",
+        "time_window": "Immediate correction of life-threatening electrolyte levels"
+    }
+]
