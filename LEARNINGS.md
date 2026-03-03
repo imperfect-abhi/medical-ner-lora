@@ -147,7 +147,7 @@ Only 597K / 67M parameters are trainable (0.89%).
 - [LoRA paper (Hu et al.)](https://arxiv.org/abs/2106.09685) 
 - [PEFT documentation](https://huggingface.co/docs/peft) - Excellent examples
 - [SeqEval docs](https://github.com/chakki-works/seqeval) - For understanding BIO tagging metrics
-- [This blog post on medical NER](https://www.johnsnowlabs.com/ner-for-clinical-texts/) - Good overview
+
 
 ---
 
